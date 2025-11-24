@@ -913,6 +913,17 @@ require('lazy').setup({
   -- you can continue same window with `<space>sr` which resumes last telescope search
 
   { 'akinsho/toggleterm.nvim', version = '*', config = true },
+  {
+    'nvim-tree/nvim-tree.lua',
+    version = '*',
+    lazy = false,
+    dependencies = {
+      'nvim-tree/nvim-web-devicons',
+    },
+    config = function()
+      require('nvim-tree').setup {}
+    end,
+  },
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
