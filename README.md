@@ -36,7 +36,3 @@ Installed:
 	- folke/todo-comments.nvim
 	- echanovski/mini.nvim
 	- nvim-treesitter/nvim-treesitter
-
-
-
-
